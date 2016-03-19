@@ -1,0 +1,3 @@
+<%= link_to(image_tag("https://paytm.com/blog/wp-content/uploads/2012/12/Paytm300x3001.png"), paytm_proceed_url(:payment_method_id => payment_method.id), :method => :post, :id => "paytm_button") %>
+
+<% param_prefix = "payment_source[#{payment_method.id}]" %>
